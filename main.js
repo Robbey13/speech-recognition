@@ -47,14 +47,14 @@ function draw(){
     radius = Math.floor (Math.random() * 100);
     circle(x,y,radius);
     document.getElementById("status").innerHTML = "Circle is drawn.";
-    draw_circle == "";
+    draw_circle == " ";
     }
 
     if(draw_rect == "set")
     {
         rect(x,y,70,50);
         document.getElementById("status").innerHTML = "Rectangle is drawn.";
-        draw_rect == "";
+        draw_rect == " ";
     }
 }
 
